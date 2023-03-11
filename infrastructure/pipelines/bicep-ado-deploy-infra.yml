@@ -13,6 +13,7 @@ trigger:
 - none
 
 pool:
+  name: laptop-pool-3 # es
   vmImage: $(ap_vm_image)
 
 stages :
